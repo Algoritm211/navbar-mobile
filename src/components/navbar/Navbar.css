@@ -1,0 +1,31 @@
+
+.navigator {
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.list-navbar-items {
+  position: relative;
+  display: flex;
+  min-width: 350px;
+}
+
+
+/* Styles for active indicator */
+.active-indicator {
+  position: absolute;
+  top: -50%;
+  width: 70px;
+  height: 70px;
+  background: green;
+  border-radius: 50%;
+  transition: 500ms;
+  border: 7px solid var(--primary);
+}

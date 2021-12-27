@@ -1,5 +1,21 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --primary: #222327
+}
+
+body {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 100vh;
+  background: var(--primary);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

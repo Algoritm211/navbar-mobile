@@ -1,0 +1,41 @@
+.nav-item {
+  list-style: none;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
+
+.item-link {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.icon {
+  display: block;
+  line-height: 75px;
+  text-align: center;
+  transition: 1s;
+  color: var(--primary);
+}
+
+.nav-item.active .icon {
+  transform: translateY(-35px);
+}
+
+.text-link {
+  position: absolute;
+  color: var(--primary);
+  transition: 1s;
+  opacity: 0;
+}
+
+.nav-item.active .text-link {
+  opacity: 1;
+  transform: translateY(10px);
+}
