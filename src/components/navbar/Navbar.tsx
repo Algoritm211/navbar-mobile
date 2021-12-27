@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const navBarListRef = useRef(null);
 
-  const tabs = ['Home', 'Profile', 'Cars1', 'Cars2', 'Cars3']
+  const tabs = ['Home', 'Profile', 'Users', 'Orders', 'Friends']
 
   const navBlock = tabs.map((tab, index) => {
     return (
