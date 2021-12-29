@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
       <NavbarItem
         textLink={tab}
-        setActive={(name) => setActiveTabInfo({name: tab, order: index})}
+        setActive={() => setActiveTabInfo({name: tab, order: index})}
         isActive={tab === activeTabInfo.name} />
     )
   })
